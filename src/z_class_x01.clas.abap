@@ -4,6 +4,7 @@ CLASS z_class_x01 DEFINITION
   CREATE PUBLIC .
 
   PUBLIC SECTION.
+  INTERFACES if_oo_adt_classrun.
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
@@ -11,4 +12,7 @@ ENDCLASS.
 
 
 CLASS z_class_x01 IMPLEMENTATION.
+METHOD if_oo_adt_classrun~main.
+out->write( 'Hello World!' ).
+ENDMETHOD.
 ENDCLASS.
