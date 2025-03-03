@@ -1,4 +1,4 @@
-CLASS z_class_x01 DEFINITION
+CLASS z_class_x02 DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -11,13 +11,8 @@ ENDCLASS.
 
 
 
-CLASS z_class_x01 IMPLEMENTATION.
+CLASS z_class_x02 IMPLEMENTATION.
 METHOD if_oo_adt_classrun~main.
-out->write( 'Hello World!' ).
-
-* out->write( 'Hello World!_02' ).
-
- out->write( 'Hello World!_03' ).
-
+out->write( 'Hello World from Z_CLASS_X02' ).
 ENDMETHOD.
 ENDCLASS.
